@@ -1,0 +1,85 @@
+/* GRANDES PROJETOS E EMPRESAS
+ - COMO COMECAR DO JEITO CERTO
+    CSS - * tudo
+*/
+
+body {
+    background-image: url("../imagens/mapa.jpg");
+    /* IMAGEM DO FUNDO */
+    background-size: cover;
+    /* TAMANHO DO FUNDO */
+    background-position: center;
+    height: 100vh;
+    /* altura */
+    display: flex;
+    /* mostrar / flexivel */
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-maior {
+    background-color: var(--cor-principal);
+    width: 45rem; /* largura  */
+    border-radius: 25px; /* arredondar a borda */
+    padding: 2rem; /* espacamento interno */
+}
+
+.input-texto {
+    width: 100%;
+    height: 10rem;
+    border: none;  /* borda / none = nada,nenhuma */
+    outline: none; /* borda quando eu clico nele*/
+    background-color: var(--cor-secundaria);
+    border-radius: 1.5rem;
+    color: var(--font-color-principal);/* cor do texto*/
+    font-size: 1.6rem; /* tamanho da fonte */
+    padding: 1.5rem;
+}
+
+.idioma {
+    width: 100%;
+    border: none;
+    border-radius: 2rem;
+    outline: none;
+    padding: 1rem;
+    background-color: var(--cor-secundaria);
+    color: var(--font-color-principal);
+    font-size: 1.2rem;
+}
+
+button {
+    border: none;
+    padding: 1rem;
+    background-color: var(--cor-secundaria);
+    border-radius: 50%;
+    cursor: pointer; /* coloca a maosinha */
+}
+
+.controle {
+    display: flex;
+    align-items: center;
+    gap: 1rem;  /* espacamento */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.controle option{
+  color: var(--font-color-terciaria);
+}
+
+.resultado {
+    padding: 1.5rem;
+    background-color: var(--cor-secundaria);
+    border-radius: 1.5rem;
+}
+
+.titulo-traducao {
+    color: var(--font-color-secundaria);
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.traducao {
+    color: var(--font-color-principal);
+    font-size: 1.8rem;
+}
